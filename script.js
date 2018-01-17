@@ -1,7 +1,12 @@
-var animals = ["horse", "dog", "cat", "alpaca", "bear", "owl", "mouse"];
-
-for (i = 0 ; i < animals.length ; i ++) {
-	animals[i] = "Awsome " + animals[i];
+function add(a, b) {
+	return a + b
 }
 
-console.log(animals);
+function multiply(c, d) {
+	return c * d
+}
+var multiplying = (multiply(36325, 9824));
+
+
+var all = add(multiplying, 777);
+console.log(all);
